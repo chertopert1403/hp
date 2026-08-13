@@ -1,0 +1,126 @@
+# Hermes Backup - 20260812_072047_UTC
+
+## Contents
+- MANIFEST.md (0)
+- SOUL.md (4.0K)
+- auth.json (4.0K)
+- channel_directory.json (4.0K)
+- config.yaml (4.0K)
+- cron_output (1.3M)
+- executions.db (52K)
+- gateway_state.json (4.0K)
+- jobs.json (8.0K)
+- kanban.db (120K)
+- memories (12K)
+- provider_models_cache.json (4.0K)
+- scripts (100K)
+- sessions (1.3M)
+- skills (1.4M)
+
+## Skills included
+  - skills/software-development/python-debugpy
+  - skills/software-development/spike
+  - skills/software-development/simplify-code
+  - skills/software-development/node-inspect-debugger
+  - skills/software-development/dogfood
+  - skills/software-development/systematic-debugging
+  - skills/software-development/requesting-code-review
+  - skills/software-development/test-driven-development
+  - skills/software-development/hermes-agent-skill-authoring
+  - skills/software-development/inspecting-hermes-desktop-dom
+  - skills/software-development/plan
+  - skills/smart-home/openhue
+  - skills/note-taking/obsidian
+  - skills/productivity/docx
+  - skills/productivity/notion
+  - skills/productivity/nano-pdf
+  - skills/productivity/ocr-and-documents
+  - skills/productivity/airtable
+  - skills/productivity/google-workspace
+  - skills/productivity/xlsx
+  - skills/productivity/powerpoint
+  - skills/productivity/pdf
+  - skills/productivity/teams-meeting-pipeline
+  - skills/productivity/maps
+  - skills/productivity/shahvani-daily-scraper
+  - skills/github/github-issues
+  - skills/github/github-auth
+  - skills/github/hermes-backup-and-cron
+  - skills/github/github-repo-management
+  - skills/github/github-code-review
+  - skills/github/codebase-inspection
+  - skills/github/github-pr-workflow
+  - skills/devops/backup-to-github
+  - skills/devops/hermes-cron-automation
+  - skills/creative/songwriting-and-ai-music
+  - skills/creative/manim-video
+  - skills/creative/pretext
+  - skills/creative/p5js
+  - skills/creative/ascii-art
+  - skills/creative/architecture-diagram
+  - skills/creative/touchdesigner-mcp
+  - skills/creative/popular-web-designs
+  - skills/creative/ascii-video
+  - skills/creative/excalidraw
+  - skills/creative/sketch
+  - skills/creative/design-md
+  - skills/creative/humanizer
+  - skills/creative/claude-design
+  - skills/creative/comfyui
+  - skills/creative/baoyu-infographic
+  - skills/social-media/xurl
+  - skills/media/youtube-content
+  - skills/media/gif-search
+  - skills/media/songsee
+  - skills/email/himalaya
+  - skills/apple/apple-notes
+  - skills/apple/apple-reminders
+  - skills/apple/imessage
+  - skills/apple/findmy
+  - skills/mlops/evaluation/weights-and-biases
+  - skills/mlops/evaluation/evaluating-llms-harness
+  - skills/mlops/inference/llama-cpp
+  - skills/mlops/inference/serving-llms-vllm
+  - skills/mlops/huggingface-hub
+  - skills/research/polymarket
+  - skills/research/research-paper-writing
+  - skills/research/grounded-citations
+  - skills/research/llm-wiki
+  - skills/research/arxiv
+  - skills/research/blogwatcher
+  - skills/autonomous-ai-agents/hermes-agent
+  - skills/autonomous-ai-agents/claude-code
+  - skills/autonomous-ai-agents/opencode
+  - skills/autonomous-ai-agents/computer-use
+  - skills/autonomous-ai-agents/codex
+
+## Scripts included
+  - scripts/backup-hermes-full.sh
+  - scripts/scrape_shahvani.py
+  - scripts/stories_20260812.txt
+  - scripts/stories_20260806.txt
+  - scripts/stories_20260809.txt
+  - scripts/stories_20260808.txt
+  - scripts/stories_20260810.txt
+  - scripts/scrape_story_content.py
+  - scripts/backup-hermes-secure.sh
+  - scripts/backup-hermes.sh
+  - scripts/stories_20260807.txt
+  - scripts/test_env_token.py
+  - scripts/stories_20260804.txt
+  - scripts/scrape_shahvani_to_git.py
+  - scripts/stories_20260811.txt
+  - scripts/stories_20260803.txt
+  - scripts/stories_20260805.txt
+  - scripts/scrape_shahvani_links.py
+
+## Excluded (secrets or regeneratable)
+- state.db (contains session PAT tokens)
+- models_dev_cache.json (regeneratable)
+- Runtime files (pid, lock, heartbeat)
+- .env (contains actual tokens - manually restore)
+
+## Notes
+- Auth tokens are REDACTED in auth.json
+- Full session binary logs are NOT backed up
+- To restore: copy files back to ~/.hermes/, restore .env manually
